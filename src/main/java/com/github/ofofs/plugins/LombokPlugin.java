@@ -1,4 +1,4 @@
-package com.kangyonggan.plugins;
+package com.github.ofofs.plugins;
 
 import org.mybatis.generator.api.IntrospectedColumn;
 import org.mybatis.generator.api.IntrospectedTable;
@@ -13,13 +13,12 @@ import java.util.List;
  * 在mbg逆向生成的时候使用此插件，生成的model没有getter和setter，而是使用Lombok的@Data注解。
  *
  * @author kangyonggan
- * @since 5/4/18
+ * @date 5/4/18
  */
 public class LombokPlugin extends PluginAdapter {
 
     private FullyQualifiedJavaType dataAnnotation = new FullyQualifiedJavaType("lombok.Data");
 
-    @Override
     public boolean validate(List<String> warnings) {
         return true;
     }

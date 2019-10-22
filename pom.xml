@@ -6,7 +6,7 @@
 
     <groupId>com.github.ofofs</groupId>
     <artifactId>plugins</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <version>1.1.0.RELEASE</version>
 
     <name>LombokPlugin</name>
     <description>Mybatis Generator Lombok Plugin</description>
