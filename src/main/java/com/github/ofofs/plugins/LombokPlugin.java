@@ -12,8 +12,7 @@ import java.util.List;
 /**
  * 在mbg逆向生成的时候使用此插件，生成的model没有getter和setter，而是使用Lombok的@Data注解。
  *
- * @author kangyonggan
- * @date 5/4/18
+ * @author kyg
  */
 public class LombokPlugin extends PluginAdapter {
 
