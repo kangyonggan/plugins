@@ -19,6 +19,7 @@ public class LombokPlugin extends PluginAdapter {
 
     private FullyQualifiedJavaType dataAnnotation = new FullyQualifiedJavaType("lombok.Data");
 
+    @Override
     public boolean validate(List<String> warnings) {
         return true;
     }
